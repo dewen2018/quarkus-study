@@ -33,6 +33,10 @@ hs_err_pid*
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
+!.mvn/.gitignore
+!.mvn/maven-wrapper.properties
+!.mvn/MavenWrapperDownloader.java
+
 !**/src/main/**/target/
 !**/src/test/**/target/
 
