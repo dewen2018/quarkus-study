@@ -1,0 +1,32 @@
+###
+POST http://localhost/user
+Content-Type: application/json
+
+{
+  "phone": "1113",
+  "email": "quarkus.@whh.com",
+  "password": "123456"
+}
+
+###
+GET http://localhost/user/3
+
+###
+GET http://localhost/user/list?pageNo=0&pageSize=10
+
+
+###
+PUT http://localhost/user
+Content-Type: application/json
+
+{
+  "id": 2,
+  "email": "quarkus.@whh.com",
+  "password": "123456",
+  "actualName": "dewen",
+  "age": 18,
+  "phone": "110"
+}
+
+###
+DELETE http://localhost/user/1
